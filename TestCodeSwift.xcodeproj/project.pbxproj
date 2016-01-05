@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0D78431C3BECF200448158 /* AppSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D78421C3BECF200448158 /* AppSettingManager.swift */; };
 		FB30B9B41C3ACCE30075D61D /* calendar-icons.png in Resources */ = {isa = PBXBuildFile; fileRef = FB30B9B31C3ACCE30075D61D /* calendar-icons.png */; };
 		FB5563601C378FD500727260 /* backIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55635F1C378FD400727260 /* backIcon@3x.png */; };
 		FB6694B61C2781C500812082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6694B51C2781C500812082 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0D78421C3BECF200448158 /* AppSettingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingManager.swift; sourceTree = "<group>"; };
 		FB30B9B31C3ACCE30075D61D /* calendar-icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icons.png"; sourceTree = "<group>"; };
 		FB55635F1C378FD400727260 /* backIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backIcon@3x.png"; sourceTree = "<group>"; };
 		FB6694B21C2781C500812082 /* TestCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				FB55635F1C378FD400727260 /* backIcon@3x.png */,
 				FB6694B51C2781C500812082 /* AppDelegate.swift */,
 				FB6694B71C2781C500812082 /* ViewController.swift */,
+				FB0D78421C3BECF200448158 /* AppSettingManager.swift */,
 				FB6694B91C2781C500812082 /* Main.storyboard */,
 				FB6694BC1C2781C500812082 /* Assets.xcassets */,
 				FB6694BE1C2781C500812082 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0D78431C3BECF200448158 /* AppSettingManager.swift in Sources */,
 				FBFC368B1C28FC610066D06D /* UILabelExtention.swift in Sources */,
 				FB6694B81C2781C500812082 /* ViewController.swift in Sources */,
 				FB6694B61C2781C500812082 /* AppDelegate.swift in Sources */,

@@ -12,20 +12,13 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
  
   
-    var indexSelected: Int!
+    var indexSelected = SharedAppSettingManager.indexSelected
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let userdefault = NSUserDefaults.standardUserDefaults()
         
-        if (userdefault.objectForKey("indexSelected") != nil) {
-            indexSelected = userdefault.objectForKey("indexSelected") as! Int
-        } else {
-            indexSelected = 0
-            userdefault.setInteger(0, forKey: "indexSelected")
-        }
     }
     
     
@@ -96,8 +89,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         indexSelected = indexPath.row //update selected row
         
-        let userdefault = NSUserDefaults.standardUserDefaults()
-        userdefault.setInteger(indexSelected, forKey: "indexSelected")
+        SharedAppSettingManager.indexSelected = indexPath.row
     }
     
    
